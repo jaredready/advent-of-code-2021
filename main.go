@@ -8,4 +8,5 @@ import (
 
 func main() {
 	fmt.Println(one.One("input/one/one.txt"))
+	fmt.Println(one.Two("input/one/two.txt"))
 }

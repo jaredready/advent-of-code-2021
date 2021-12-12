@@ -11,3 +11,11 @@ func TestOne(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestTwo(t *testing.T) {
+	result := Two("../input/one/two-test.txt")
+	if result != 5 {
+		t.Log("Expected 5, got ", result)
+		t.Fail()
+	}
+}
